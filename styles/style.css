@@ -1,0 +1,38 @@
+html{
+    box-sizing: border-box;
+    
+
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    text-align: center;
+    background-color: darkslategray;
+}
+
+.pixel{
+   
+   border: 1px;
+    border-color: black;
+    border-style: solid;
+   
+    float: left;
+}
+
+.drawOn{
+ background-color: black;
+}
+.drawOnColors{
+
+}
+.drawOff{
+background-color: grey;
+}
+
+#container{
+ 
+
+   width: 960px; 
+   height: 960px;
+     margin: auto;
+}
